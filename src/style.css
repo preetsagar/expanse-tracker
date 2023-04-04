@@ -1,0 +1,93 @@
+body{
+    margin: 0;
+    background: #ecf3f7;
+    /* font-size: 20px; */
+}
+
+.outer-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Box{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    /* border: 1px solid black; */
+
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.card{
+    display: flex;
+    width: 150px;
+    height: 75px;
+    background: rgba(255, 255, 255, 0.7);
+    font: 20px;
+    box-shadow: 1px 1px 5px rgb(74, 100, 99, 0.1);
+
+
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.card-div{
+    display: flex;
+    margin-bottom: 25px;
+}
+
+.history-div{
+    width: 99%;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* margin-top: 10px; */
+
+    background: rgb(255, 255, 255, 0.7);
+    /* border-right: 4px solid rgb(236, 0, 0); */
+    box-shadow: 1px 1px 5px rgb(74, 100, 99, 0.1);
+    margin-bottom: 10px;
+}
+
+.addTransaction-div{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.addTransaction-div .text{
+    font-size: 13px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.addTransaction-div button{
+    margin-top: 10px;
+
+    height: 30px;
+    background: #744cd3;
+    color: white;
+    border: none;
+    font-weight: bold;
+}
+
+.addTransaction-div input{
+    height: 25px;
+    border: none;
+    /* margin-bottom: 10px; */
+}
+
+.sub-heading{
+    font-weight: bold;
+    width: 100%;
+    border-bottom: 1px solid rgb(0, 0, 0, 0.1);
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+}
+.space{
+    margin-top: 20px;
+}
